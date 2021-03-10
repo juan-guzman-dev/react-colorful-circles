@@ -10,9 +10,10 @@ function ColorfulCircles() {
   const [colors, setColors] = useState([]);
 
   const addColor = newColor => {
+    let size = getRandom()
     setColors(colors => [
       ...colors,
-      { color: newColor, x: getRandom(), y: getRandom() }
+      { color: newColor, x: getRandom(), y: getRandom(), width: size, height: size }
     ]);
   };
   const changePosition = i => {
@@ -21,7 +22,7 @@ function ColorfulCircles() {
       const colorsCopy = [...colors];
       // create a copy of the object at index i,
       // then change the copy
-      colorsCopy[i] = { 
+      colorsCopy[i] = {
         ...colors[i],
         x: getRandom(),
         y: getRandom()

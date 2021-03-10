@@ -1,0 +1,11 @@
+.Circle {
+  border-radius: 50%;
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+  border: 3px solid black;
+  margin: 10px;
+  line-height: 100px;
+  font-weight: bold;
+  font-size : 1vw; overflow: hidden;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Circle.css";
+import "./PositionedCircle.css";
 
 function PositionedCircle(props) {
   const handleChange = () => {
@@ -13,9 +13,11 @@ function PositionedCircle(props) {
         backgroundColor: props.colorObj.color,
         position: "absolute",
         top: `${props.colorObj.y}vh`,
-        left: `${props.colorObj.x}vw`
+        left: `${props.colorObj.x}vw`,
+        width: `${props.colorObj.width}px`,
+        height: `${props.colorObj.height}px`,
       }}
-      onClick={handleChange}
+      onMouseOver={handleChange}
     >
       {props.idx + 1}
     </div>

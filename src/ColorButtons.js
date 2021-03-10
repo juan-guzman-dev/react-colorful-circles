@@ -19,7 +19,7 @@ function ColorButtons(props) {
 }
 
 ColorButtons.defaultProps = {
-  options: ["red", "green", "blue", "honeydew"]
+  options: ["red", "green", "aquamarine", "orange", "purple"]
 };
 
 export default ColorButtons;
