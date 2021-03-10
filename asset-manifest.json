@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-colorful-circles-app/static/css/main.0322275b.chunk.css",
+    "main.js": "/react-colorful-circles-app/static/js/main.9e5846c3.chunk.js",
+    "main.js.map": "/react-colorful-circles-app/static/js/main.9e5846c3.chunk.js.map",
+    "runtime-main.js": "/react-colorful-circles-app/static/js/runtime-main.ef38544b.js",
+    "runtime-main.js.map": "/react-colorful-circles-app/static/js/runtime-main.ef38544b.js.map",
+    "static/js/2.077ff6bb.chunk.js": "/react-colorful-circles-app/static/js/2.077ff6bb.chunk.js",
+    "static/js/2.077ff6bb.chunk.js.map": "/react-colorful-circles-app/static/js/2.077ff6bb.chunk.js.map",
+    "static/js/3.d85cc891.chunk.js": "/react-colorful-circles-app/static/js/3.d85cc891.chunk.js",
+    "static/js/3.d85cc891.chunk.js.map": "/react-colorful-circles-app/static/js/3.d85cc891.chunk.js.map",
+    "index.html": "/react-colorful-circles-app/index.html",
+    "static/css/main.0322275b.chunk.css.map": "/react-colorful-circles-app/static/css/main.0322275b.chunk.css.map",
+    "static/js/2.077ff6bb.chunk.js.LICENSE.txt": "/react-colorful-circles-app/static/js/2.077ff6bb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef38544b.js",
+    "static/js/2.077ff6bb.chunk.js",
+    "static/css/main.0322275b.chunk.css",
+    "static/js/main.9e5846c3.chunk.js"
+  ]
+}
